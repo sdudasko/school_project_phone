@@ -1,0 +1,28 @@
+.top-navigation .top-navigation__list {
+    text-align: center;
+}
+.top-navigation .top-navigation__logo {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    float: left;
+}
+.top-navigation .top-navigation__list .top-navigation__list-item {
+    display: inline-block;
+    margin: 0 5%;
+    padding-top: 25px;
+}
+.top-navigation__list-item-link {
+    padding-bottom: 10px;
+}
+.top-navigation__list-item.active {
+    border-bottom: 2px solid #8740ff;
+}
+.top-navigation__list-item-link:hover {
+    border-bottom: 2px solid #8740ff;
+}
+.top-navigation__logo img {
+    width: 75px;
+    position: relative;
+    top: -10px;
+}
