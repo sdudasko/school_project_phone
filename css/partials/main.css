@@ -7,10 +7,11 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff;
-    overflow-x: hidden;
 }
-
 h1 {
+    font-size: 34px;
+}
+h2 {
     font-size: 28px;
 }
 h1.margined {
@@ -52,32 +53,45 @@ a {
     padding-right: 15px;
 }
 
+.fx-100, .fx-83, .fx-66, .fx-50, .fx-33, .fx-16, .fx-8, .fx-41, .fx-58 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
 .fx-100 {
     width: 100%;
 }
 .fx-83 {
-    width: 83.33%;
+    width: 83.3333%;
 }
 .fx-66 {
-    width: 66.66%;
+    width: 66.6666%;
+}
+.fx-58 {
+    width: 58.33333333%;
 }
 .fx-50 {
     width: 50%;
 }
+.fx-41 {
+    width: 41.66666667%;
+}
 .fx-33 {
-    width: 33.33%;
+    width: 33.3333%;
 }
 .fx-16 {
-    width: 16.66%;
+    width: 16.6666%;
 }
 .fx-8 {
-    width: 8.33%;
+    width: 8.3333%;
 }
 .fxo-8 {
-    margin-left: 8.88%;
+    margin-left: 8.8888%;
 }
 .fxo-16 {
-    margin-left: 16.66%;
+    margin-left: 16.6666%;
 }
 
 .btn-red {
@@ -106,7 +120,17 @@ a {
     border: 1px solid #009688;
     background-color: #009688;
 }
-.btn-blue:hover {
+.btn-blue:hover, .btn-blue:active, .btn-blue:focus, .btn-blue:visited {
     transition: .2s;
     background-color: #005a51;
+    cursor: pointer;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }

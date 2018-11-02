@@ -1,9 +1,33 @@
 footer {
     background: #009688;
     color: white;
+    padding: 10px 0 45px 0;
 }
-
+.footer-text {
+    opacity: .7;
+}
 .footer-content {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.footer-text-left {
+    font-size: 14px;
+    margin-left: 34px;
+    margin-top: 5px;
+}
+.footer-logo {
+    height: 35px;
+    text-align: left;
+}
+.footer-text-white {
+    position: relative;
+    top: -3px;
+}
+.footer-link {
+    color: white;
+    text-decoration: underline;
+}
+.footer-logo-section {
+    position: relative;
+    top: -12px;
 }

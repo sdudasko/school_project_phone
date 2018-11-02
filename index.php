@@ -1,33 +1,35 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Xiaomi Mi 4A</title>
-</head>
-<body>
-    <nav class="top-navigation">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <ul class="top-navigation__list">
-                        <li class="top-navigation__list-item">About</li>
-                        <li class="top-navigation__list-item">Photo</li>
-                        <li class="top-navigation__list-item">Review</li>
-                        <li class="top-navigation__list-item">Contact</li>
-                    </ul>
-                </div>
+<?php
+$cssFilePaths = [
+    '/css/layout/homepage.css'
+];
+?>
 
+<?php include('resources/partials/header.php') ?>
+<?php include('resources/partials/nav.php') ?>
+    <main>
+        <div class="page page-homepage page-homepage__section--gray">
+            <div class="ct">
+                <div class="fx-58">
+                    <div class="page-homepage__claim">
+                        <h1>
+                            Redmi 4A
+                        </h1>
+                        <p>
+                            Špičková výdž batérie pre Vaše potreby<br>
+                            Teraz za skvelú cenu s pomerom na výkon
+                        </p>
+                        <p>
+                            <a href="/about.php" class="btn-red">
+                                Ďalšie informácie
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="fx-41 page-homepage__img-wrap">
+                    <img src="./img/back8.png" alt="Redmi 4A" width="1458" height="2354" class="page-homepage__image">
+                </div>
             </div>
         </div>
-    </nav>
-    <main>
-        <div class="page-homepage">
-            <h1 class="page-homepage__main-heading"></h1>
-        </div>
-    </main>
-    <footer>
 
-    </footer>
-</body>
-</html>
+    </main>
+<?php include('resources/partials/footer.php') ?>
