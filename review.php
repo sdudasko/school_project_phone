@@ -3,7 +3,9 @@ $cssFilePaths = [
     '/css/layout/review.css',
     '/css/partials/modals/review_create.css',
 ];
-
+$jsFilePaths = [
+    '/resources/scripts/review.js',
+];
 const TIMES = 3;
 
 ?>
@@ -37,7 +39,7 @@ const TIMES = 3;
                     </div>
                     <div class="ctr">
                         <div class="fx-100">
-                            <span class="page-review__post-reply" id="reviewCreateModalOpen">Odpovedať</span>
+                            <span class="page-review__post-reply">Odpovedať</span>
                         </div>
                     </div>
                 </div>

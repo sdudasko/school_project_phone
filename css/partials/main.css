@@ -137,3 +137,11 @@ a {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+.main-link {
+    color: #009688;
+    text-decoration: none;
+}
+.main-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

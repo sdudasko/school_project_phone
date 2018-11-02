@@ -59,7 +59,7 @@ $cssFilePaths = [
                                 Redmi 4A ponúka množstvo funkcii, niektoré z nich si môžete pozrieť aj na tejto stránke.
                             </p>
                             <p class="p">
-                                Vyskúšajte si niektoré z nových zvonení!
+                                Vyskúšajte si niektoré z nových <a href="/features.php" class="main-link">zvonení</a>!
                             </p>
                             <p class="p">
                                 Nakoľko máme veľa spokojných zákazníkov, ktorí sa radi podelia o svoje zážitky a svoje

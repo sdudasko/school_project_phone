@@ -4,7 +4,6 @@
             <div class="center">
                 <div class="fleft fx-100">
                     <div class="footer-content">
-                        <!--                        2018 Mi. All rights reserved.-->
                     </div>
                 </div>
             </div>
@@ -26,5 +25,14 @@
     </div>
 </footer>
 </body>
-<script src="/resources/scripts/main.js" type="text/javascript"></script>
+
+<?php
+if (!isset($jsFilePaths)) {
+    $jsFilePaths = [];
+}
+
+foreach ($jsFilePaths as $path) { ?>
+    <script type="text/javascript" src="<?= $path ?>"></script>
+<?php } ?>
+
 </html>

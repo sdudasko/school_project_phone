@@ -19,6 +19,6 @@
     margin-bottom: 15px;
 }
 .page-photo__img-wrapper {
-    display: inline-block;
     overflow: hidden;
+    display: grid;
 }

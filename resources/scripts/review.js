@@ -1,12 +1,14 @@
-let modal, btn, ctaClose, ctaCancel;
+let modal, openBtn, ctaClose, ctaCancel;
 modal = document.getElementById('reviewCreateModal');
-btn = document.getElementById("reviewCreateModalOpen");
+openBtn = document.getElementsByClassName("page-review__post-reply");
 ctaClose = document.getElementsByClassName("close")[0];
 ctaCancel = document.getElementsByClassName("review-modal__cta-cancel")[0];
 
-btn.onclick = function() {
-    modal.style.display = "block";
-};
+for (var i = 0; i < openBtn.length; i++) {
+    openBtn[i].addEventListener("click", function() {
+        modal.style.display = "block";
+    });
+}
 
 ctaClose.onclick = function() {
     modal.style.display = "none";

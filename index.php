@@ -25,8 +25,10 @@ $cssFilePaths = [
                         </p>
                     </div>
                 </div>
-                <div class="fx-41 page-homepage__img-wrap">
-                    <img src="./img/back8.png" alt="Redmi 4A" width="1458" height="2354" class="page-homepage__image">
+                <div class="fx-41">
+                    <div class="page-homepage__img-wrap">
+                        <img src="./img/back8.png" alt="Redmi 4A" width="1458" height="2354" class="page-homepage__image">
+                    </div>
                 </div>
             </div>
         </div>
