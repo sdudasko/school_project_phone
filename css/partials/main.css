@@ -108,6 +108,23 @@ a {
 .btn-red:hover {
     background: #e02f2f;
 }
+.btn-dark-red {
+    display: inline-block;
+    padding: 15px 25px;
+    background: #a50800;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #a50800;
+    transition: .2s;
+}
+.btn-dark-red:hover {
+    transition: .2s;
+    background: #eb150a;
+    border: 1px solid #eb150a;
+}
 
 .btn-blue {
     display: inline-block;
@@ -147,4 +164,37 @@ a {
 }
 .heading-space {
     margin: 35px 0;
+}
+.main-table__table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.main-table__tr:hover {
+    background-color: #ddd;
+}
+
+.main-table__tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.main-table__tr {
+    border: 1px solid #ddd;
+    padding: 8px;
+    height: 30px;
+}
+.main-table__table td, .main-table__table th {
+    vertical-align: middle;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.main-table__table th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: #009688;
+    color: white;
 }

@@ -36,7 +36,7 @@ $cssFilePaths = [
                         Xiaomi
                     </div>
                     <div class="ringtone-row-child">
-                        Zvonenie pridané výrobcom
+                        Nieje pridané výrobcom
                     </div>
                 </div>
 

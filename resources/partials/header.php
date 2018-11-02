@@ -8,6 +8,8 @@
     <?php foreach ($cssFilePaths as $path) { ?>
         <link rel="stylesheet" type="text/css" href="<?= $path ?>">
     <?php } ?>
+
+    <script src="/resources/scripts/main.js" type="text/javascript"></script>
     <title>Xiaomi Mi 4A</title>
 </head>
 <body>
