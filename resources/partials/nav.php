@@ -10,7 +10,7 @@
                 <ul class="top-navigation__list">
                     <li class="top-navigation__list-item"><a href="/about.php" class="top-navigation__list-item-link">O
                             telefóne</a></li>
-                    <li class="top-navigation__list-item"><a href="/foto.php" class="top-navigation__list-item-link">Foto</a>
+                    <li class="top-navigation__list-item"><a href="/photo.php" class="top-navigation__list-item-link">Foto</a>
                     </li>
                     <li class="top-navigation__list-item"><a href="/review.php" class="top-navigation__list-item-link">Review</a>
                     </li>
