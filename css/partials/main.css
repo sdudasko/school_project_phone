@@ -145,3 +145,6 @@ a {
     cursor: pointer;
     text-decoration: underline;
 }
+.heading-space {
+    margin: 35px 0;
+}

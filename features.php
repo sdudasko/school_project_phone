@@ -23,7 +23,9 @@ $cssFilePaths = [
                     </div>
                 </div>
                 <div class="ringtone-row">
-                    <a href="#" class="ringtone-row__cta btn-blue ringtone-row-child">Prehraj</a>
+                    <audio controls controlsList="nodownload">
+                        <source src="./resources/ringtones/EmailIncoming.ogg" type="audio/ogg">
+                    </audio>
                     <div class="ringtone-row-child">
                         <span>EmailIncoming</span>
                     </div>
@@ -39,7 +41,9 @@ $cssFilePaths = [
                 </div>
 
                 <div class="ringtone-row">
-                    <a href="#" class="ringtone-row__cta btn-blue ringtone-row-child">Prehraj</a>
+                    <audio controls controlsList="nodownload">
+                        <source src="./resources/ringtones/piano_rythm.mp3" type="audio/ogg">
+                    </audio>
                     <div class="ringtone-row-child">
                         <span>piano_rhythm</span>
                     </div>
@@ -55,7 +59,9 @@ $cssFilePaths = [
                 </div>
 
                 <div class="ringtone-row">
-                    <a href="#" class="ringtone-row__cta btn-blue ringtone-row-child">Prehraj</a>
+                    <audio controls controlsList="nodownload">
+                        <source src="./resources/ringtones/super_mario_bros.mp3" type="audio/ogg">
+                    </audio>
                     <div class="ringtone-row-child">
                         <span>super_mario_bros</span>
                     </div>
@@ -68,6 +74,15 @@ $cssFilePaths = [
                     <div class="ringtone-row-child">
                         Nieje pridané výrobcom
                     </div>
+                </div>
+
+                <div class="ctr center">
+                    <h2 class="center heading-space">Prostredie telefónu</h2>
+
+                    <video controls autoplay>
+                        <source src="./resources/video/live_interacion.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
         </div>
