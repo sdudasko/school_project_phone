@@ -1,0 +1,23 @@
+.page-review__post-section {
+    width: 80%;
+    margin: 0 auto;
+}
+.page-review__user {
+    font-weight: bolder;
+    color: #009688;
+}
+.page-review__post__text {
+    font-size: 1em;
+    line-height: 1.3;
+    margin: 8px 0;
+}
+.page-review__post-reply {
+    color: #606770;
+}
+.page-review__post-reply:hover {
+    cursor: pointer;
+}
+.page-review__post {
+    box-shadow: 0 0 11px -7px;
+    padding: 12px;
+}

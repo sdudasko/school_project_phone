@@ -4,14 +4,15 @@
             <div class="center">
                 <div class="fleft fx-100">
                     <div class="footer-content">
-<!--                        2018 Mi. All rights reserved.-->
+                        <!--                        2018 Mi. All rights reserved.-->
                     </div>
                 </div>
             </div>
         </div>
         <div class="ctr">
             <div class="fx-50 footer-logo-section">
-                <img src="/img/logo.svg" alt="" class="footer-logo"><span class="footer-text-white">Xiaomi Redmi 4A</span>
+                <img src="/img/logo.svg" alt="" class="footer-logo"><span
+                        class="footer-text-white">Xiaomi Redmi 4A</span>
                 <p class="footer-text footer-text-left">
                     © 2018 Stefan Dudasko personal mobile website.<br>
                     XIAOMI is authorized mobile phone brand.<br>
@@ -25,4 +26,5 @@
     </div>
 </footer>
 </body>
+<script src="/resources/scripts/main.js" type="text/javascript"></script>
 </html>

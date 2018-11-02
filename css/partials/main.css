@@ -120,6 +120,9 @@ a {
     border: 1px solid #009688;
     background-color: #009688;
 }
+.btn-blue--small {
+    padding: 10px 20px;
+}
 .btn-blue:hover, .btn-blue:active, .btn-blue:focus, .btn-blue:visited {
     transition: .2s;
     background-color: #005a51;
