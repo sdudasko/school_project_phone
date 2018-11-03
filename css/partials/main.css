@@ -46,11 +46,25 @@ a {
     float: left;
 }
 .ct {
-    width: 1170px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+@media (min-width: 768px) {
+    .ct {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .ct {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .ct {
+        width: 1170px;
+    }
 }
 
 .fx-100, .fx-83, .fx-66, .fx-50, .fx-33, .fx-16, .fx-8, .fx-41, .fx-58 {

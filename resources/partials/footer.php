@@ -11,7 +11,7 @@
         <div class="ctr">
             <div class="fx-50 footer-logo-section">
                 <img src="/img/logo.svg" alt="" class="footer-logo"><span
-                        class="footer-text-white">Xiaomi Redmi 4A</span>
+                        class="footer-text-white">Xiaomi&nbsp;Redmi&nbsp;4A</span>
                 <p class="footer-text footer-text-left">
                     © 2018 Stefan Dudasko personal mobile website.<br>
                     XIAOMI is authorized mobile phone brand.<br>
