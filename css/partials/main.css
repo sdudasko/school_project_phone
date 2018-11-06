@@ -67,7 +67,7 @@ a {
     }
 }
 
-.fx-100, .fx-83, .fx-66, .fx-50, .fx-33, .fx-16, .fx-8, .fx-41, .fx-58 {
+.fx-100, .fx-83, .fx-66, .fx-50, .fx-33, .fx-16, .fx-8, .fx-41, .fx-58, .fx-25, .fx-30 {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
@@ -94,6 +94,12 @@ a {
 }
 .fx-33 {
     width: 33.3333%;
+}
+.fx-30 {
+    width: 30%;
+}
+.fx-25 {
+    width: 25%;
 }
 .fx-16 {
     width: 16.6666%;

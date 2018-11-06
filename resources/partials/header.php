@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="/css/partials/header.css">
     <link rel="stylesheet" type="text/css" href="/css/partials/footer.css">
     <link rel="stylesheet" type="text/css" href="/css/partials/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <?php foreach ($cssFilePaths as $path) { ?>
         <link rel="stylesheet" type="text/css" href="<?= $path ?>">
     <?php } ?>
