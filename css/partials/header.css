@@ -5,19 +5,25 @@
     width: 100%;
     z-index: 100;
 }
+.top-navigation.scrolled {
+    box-shadow: 11px -8px 30px -5px;
+}
 
-.header_inner {
+.nav-inner {
     position: relative;
     height: 70px;
     top: 20px;
     -webkit-transition: -webkit-transform .3s;
     transition: transform .3s;
+    z-index: 120;
+    background: white;
 }
 
-.scrolled .header_inner {
+.scrolled .nav-inner {
     -ms-transform: translate(0, -20px);
     -webkit-transform: translate(0, -20px);
     transform: translate(0, -20px);
+    /*border-bottom: 1px solid #009688;*/
 }
 
 .top-navigation .top-navigation__list {

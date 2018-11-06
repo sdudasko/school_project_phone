@@ -9,7 +9,7 @@ $cssFilePaths = [
         <section class="page page-homepage page-homepage__section--gray">
             <div class="ct">
                 <div class="ctr">
-                    <div class="fx-58">
+                    <div class="fx-58 page-homepage__claim__wrapper">
                         <div class="page-homepage__claim">
                             <h1>
                                 Redmi 4A
@@ -25,7 +25,7 @@ $cssFilePaths = [
                             </p>
                         </div>
                     </div>
-                    <div class="fx-41">
+                    <div class="fx-41 page-homepage__claim__wrapper__img-wrapper-outer">
                         <div class="page-homepage__img-wrap">
                             <img src="./img/back8.png" alt="Redmi 4A" width="1458" height="2354"
                                  class="page-homepage__image">
@@ -36,12 +36,22 @@ $cssFilePaths = [
         </section>
         <section class="page-homepage__ui-sec">
             <div class="ct">
-                <div class="ctr">
-                    <div class="fx-25 page-homepage__ui-sec-video">
+                <div class="ctr page-homepage__red-sec">
+                    <div class="fx-22 page-homepage__ui-sec-video">
                         <video autoplay muted>
                             <source src="./resources/video/video_user_interaction.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
+                    </div>
+                    <div class="fx-66 page-homepage__ui-sec-wrapper-outer">
+                        <div class="page-homepage__ui-sec-wrapper">
+                            <div>
+                                <span class="page-homepage__ui-sec__teas">S novým vylepšeným UI</span>
+                            </div>
+                            <div>
+                                <span class="page-homepage__ui-sec__sub-teas">S personalizovanými funkciami priamo pre Vás</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

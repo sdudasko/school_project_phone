@@ -1,4 +1,4 @@
-<nav class="top-navigation scrolled">
+<nav class="top-navigation">
     <div class="nav-inner">
         <div class="ct">
             <div class="ctr">
