@@ -12,7 +12,6 @@
 
 .page-about__section--purple {
     background: #253B57;
-    /*margin-top: 40px;*/
     margin-bottom: 40px;
 }
 .page-about__section--purple:after {
@@ -32,4 +31,61 @@
     transform: scale(1.1);
     transition: .2s;
     cursor: pointer;
+}
+.page-about__section-text {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 25px;
+}
+
+@media screen and (max-width: 1199px) {
+    .mobile-back-detail img {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .page-about__section__content {
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 767px) {
+    .page-about__section__img-wrapper {
+        width: 100%;
+    }
+    .page-about__section-teasing__wrapper {
+        width: 70%;
+        margin: 0;
+    }
+    .page-about__section-white {
+        width: 100%;
+        padding: 0 25px;
+        margin: 0 0 25px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .page-about__section-teasing__wrapper {
+        width: 100%;
+    }
+    .page-about__section__content {
+        display: block;
+    }
+    .page-about__section__img-wrapper {
+        width: 90%;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .page-about__section-teasing {
+        font-size: 24px;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .page-about__section-teasing {
+        font-size: 20px;
+    }
 }

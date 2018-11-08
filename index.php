@@ -15,7 +15,7 @@ $cssFilePaths = [
                                 Redmi 4A
                             </h1>
                             <p>
-                                Špičková výdž batérie pre Vaše potreby<br>
+                                Špičková výdž batérie pre Vaše potreby<br class="page-homepage__claim__br">
                                 Teraz za skvelú cenu s pomerom na výkon
                             </p>
                             <p>

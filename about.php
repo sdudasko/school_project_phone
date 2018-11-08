@@ -10,12 +10,12 @@ $cssFilePaths = [
         <div class="page page-about">
             <div class="ct">
                 <div class="ctr">
-                    <div class="fleft fxo-16 fx-66">
+                    <div class="fleft fxo-16 fx-66 page-about__section-text">
                         <h1 class="page-about__main-heading center margined">O telefóne</h1>
                     </div>
                 </div>
                 <div class="ctr">
-                    <div class="fleft fxo-16 fx-66">
+                    <div class="fleft fxo-16 fx-66 page-about__section-white">
                         <p class="p">
                             Nový Redmi 4A predstavuje klasický jednoliaty dizajn, precízne vyrobený z hliníku. Je vhodný
                             pre
@@ -33,8 +33,8 @@ $cssFilePaths = [
             </div>
             <div class="page-about__section page-about__section--purple">
                 <div class="ct">
-                    <div class="ctr">
-                        <div class="fleft fxo-8 fx-33">
+                    <div class="ctr page-about__section__content">
+                        <div class="fleft fxo-8 fx-33 page-about__section-teasing__wrapper">
                             <div class="page-about__section-teasing">
                                 Teraz s lepšou konštrukciou,<br>vďaka ktorej je ešte<br>odolnejší voči<br>pádom.
                             </div>
@@ -43,7 +43,7 @@ $cssFilePaths = [
                                 Prejsť na špecifikáciu
                             </a>
                         </div>
-                        <div class="fleft fx-50 center page-about__section--purple-image">
+                        <div class="fleft fx-50 center page-about__section__img-wrapper">
                             <div class="mobile-back-detail">
                                 <img src="./img/phone_back_detail.png" alt="Mi 4A">
                             </div>
@@ -53,7 +53,7 @@ $cssFilePaths = [
             </div>
             <div class="ct">
                 <div class="ctr">
-                    <div class="fleft fxo-16 fx-66">
+                    <div class="fleft fxo-16 fx-66 page-about__section-white">
                         <div class="section--white">
                             <p class="p">
                                 Redmi 4A ponúka množstvo funkcii, niektoré z nich si môžete pozrieť aj na tejto stránke.

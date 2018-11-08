@@ -23,4 +23,21 @@ window.addEventListener('load', function () {
     document.onscroll = function () {
         onIsScrolledEventFire();
     }
+
+    document.getElementsByClassName('hamburger')[0].addEventListener('click', function () {
+        let elem = document.getElementsByClassName('hamburger')[0];
+        let header = document.getElementsByClassName('main-header')[0];
+
+        if (!header.classList.contains('opened')) {
+            header.className += ' opened';
+        } else {
+            header.classList.remove("opened");
+        }
+
+        if (!elem.classList.contains('active')) {
+            elem.className += ' active';
+        } else {
+            elem.classList.remove("active");
+        }
+    });
 });

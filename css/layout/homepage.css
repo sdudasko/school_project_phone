@@ -76,3 +76,30 @@
         width: 50%;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .page-homepage__claim p {
+        width: 100%;
+    }
+    .page-homepage__claim__wrapper {
+        width: 100%;
+        text-align: center;
+    }
+    .page-homepage__claim__wrapper__img-wrapper-outer {
+        width: 100%;
+        text-align: center;
+    }
+    .page-homepage__claim__br {
+        display: none;
+        min-height: 300px;
+    }
+    .page-homepage__image {
+        margin: 0 auto;
+        width: 50%;
+    }
+    .page-homepage__img-wrap {
+        height: auto;
+        margin-bottom: 30px;
+
+    }
+}
