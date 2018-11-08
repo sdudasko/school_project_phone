@@ -199,7 +199,7 @@
     cursor: pointer;
     transition-property: opacity, filter;
     transition-duration: .15s;
-    transition-timing-function: linear;
+    transition-timing-function: ease;
     font: inherit;
     color: inherit;
     text-transform: none;
@@ -231,7 +231,7 @@
     right: 0;
     top: 0;
     opacity: 0;
-    transition: top .1s ease-out, opacity .1s .14s ease-out;
+    transition: top .1s ease-out, opacity .1s .1s ease-out;
     background-color: #009688;
 }
 
@@ -240,7 +240,7 @@
     width: 25px;
     bottom: 0;
     transform: rotate(-90deg);
-    transition: bottom .1s ease-out, transform .3s .14s cubic-bezier(.215, .61, .355, 1);
+    transition: bottom .1s ease-out, transform .3s .1s ease-out;
     background-color: #009688;
 }
 
@@ -249,7 +249,7 @@
     width: 25px;
     transform: rotate(225deg);
     transition-delay: .14s;
-    transition-timing-function: cubic-bezier(.215, .61, .355, 1);
+    transition-timing-function: ease-out;
     background-color: #009688;
 }
 
