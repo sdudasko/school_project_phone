@@ -1,5 +1,14 @@
-body {
+#container {
+    /*height: 100%;*/
+    min-height:100%;
+    position:relative;
+}
+html, body {
+    height: 100%;
     margin: 0;
+    padding: 0;
+}
+body {
     font-family: Open Sans,sans-serif;
     font-weight: 400;
     font-size: 1rem;
@@ -7,6 +16,9 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff;
+}
+main {
+    padding-bottom:205px;
 }
 h1 {
     font-size: 34px;
@@ -26,7 +38,7 @@ a {
     margin-bottom: 15px;
 }
 .page {
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 .center {
@@ -49,6 +61,15 @@ a {
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+.ctl {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ctl-1000 {
+    max-width: 1000px;
 }
 @media (min-width: 768px) {
     .ct {
@@ -258,4 +279,16 @@ a {
     text-align: left;
     background-color: #009688;
     color: white;
+}
+
+@media screen and (max-width: 991px) {
+    .main-table__table {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-table__table {
+        font-size: 14px;
+    }
 }

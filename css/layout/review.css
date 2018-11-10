@@ -18,6 +18,21 @@
     cursor: pointer;
 }
 .page-review__post {
+    margin: 15px 0;
     box-shadow: 0 0 11px -7px;
     padding: 12px;
+}
+
+@media screen and (max-width: 991px) {
+    .page-review__post-section {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .page-review__post-section {
+        width: 95%;
+        margin: 0 auto;
+    }
 }

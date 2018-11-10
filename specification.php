@@ -103,7 +103,7 @@ $cssFilePaths = [
                     </tr>
                 </table>
                 <p class="center comparison-btn">
-                    <a href="/comparison.php" class="btn-dark-red">Porovnať s najnovším modelom</a>
+                    <a href="/comparison.php" class="btn-red">Porovnať s najnovším modelom</a>
                 </p>
             </div>
         </div>

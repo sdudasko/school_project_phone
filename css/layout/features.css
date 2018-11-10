@@ -13,14 +13,16 @@
 }
 .ringtone-row-child {
     position: relative;
+    width: 25%;
+    text-align: center;
 }
 .ringtone-row-child:last-child {
-    padding: 15px 70px;
+    /*padding: 15px 70px;*/
 }
-.ringtone-row-child:not(:last-child):not(:first-child):after {
+.ringtone-row-child:not(:last-child):after {
     content: '';
     position: absolute;
-    right: -40px;
+    right: 0;
     width: 1px;
     background-color: #c3d4e3;
     height: 40px;
@@ -52,3 +54,32 @@ video {
     width: 60%;
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 991px) {
+    .ringtone-row-child:last-child {
+        display: none;
+    }
+    .ringtone-row-child:not(:last-child):after {
+        right: -33%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .ringtone-row-child:last-child {
+        display: none;
+    }
+    .ringtone-row-child:nth-last-child(2) {
+        display: none;
+    }
+    .ringtone-row {
+        justify-content: space-around;
+    }
+    .ringtone-row-child:not(:last-child):after, .ringtone-row-child:last-child:after {
+        content: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .ringtone-row-child {
+        width: 50%;
+    }
+}
+.ringtone-row-child

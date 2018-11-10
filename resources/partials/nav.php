@@ -26,7 +26,7 @@
                                                                  class="top-navigation__list-item-link">Foto</a>
                         </li>
                         <li class="top-navigation__list-item"><a href="/review.php"
-                                                                 class="top-navigation__list-item-link">Review</a>
+                                                                 class="top-navigation__list-item-link">Recenzie</a>
                         </li>
                         <li class="top-navigation__list-item"><a href="/features.php"
                                                                  class="top-navigation__list-item-link">Funkcie</a>

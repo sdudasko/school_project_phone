@@ -22,57 +22,68 @@ $cssFilePaths = [
                         </p>
                     </div>
                 </div>
-                <div class="ringtone-row">
-                    <div class="ringtone-row-child">
-                        <audio controls controlsList="nodownload">
-                            <source src="./resources/ringtones/EmailIncoming.ogg" type="audio/ogg">
-                        </audio>
-                    </div>
-                    <div class="ringtone-row-child">
-                        <span>EmailIncoming</span>
-                    </div>
-                    <div class="ringtone-row-child">
-                        Xiaomi
-                    </div>
-                    <div class="ringtone-row-child">
-                        Nieje pridané výrobcom
-                    </div>
-                </div>
-
-                <div class="ringtone-row">
-                    <div class="ringtone-row-child">
-                        <audio controls controlsList="nodownload">
-                            <source src="./resources/ringtones/piano_rythm.mp3" type="audio/ogg">
-                        </audio>
-                    </div>
-                    <div class="ringtone-row-child">
-                        <span>piano_rhythm</span>
-                    </div>
-                    <div class="ringtone-row-child">
-                        Xiaomi
-                    </div>
-                    <div class="ringtone-row-child">
-                         Nieje pridané výrobcom
+            </div>
+            <div class="ctl ctl-1000">
+                <div class="ctr">
+                    <div class="fx-100">
+                        <div class="ringtone-row">
+                            <div class="ringtone-row-child">
+                                <audio controls controlsList="nodownload">
+                                    <source src="./resources/ringtones/EmailIncoming.ogg" type="audio/ogg">
+                                </audio>
+                            </div>
+                            <div class="ringtone-row-child">
+                                <span>EmailIncoming</span>
+                            </div>
+                            <div class="ringtone-row-child">
+                                Xiaomi
+                            </div>
+                            <div class="ringtone-row-child">
+                                Nieje pridané výrobcom
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="ringtone-row">
-                    <div class="ringtone-row-child">
-                        <audio controls controlsList="nodownload">
-                            <source src="./resources/ringtones/super_mario_bros.mp3" type="audio/ogg">
-                        </audio>
-                    </div>
-                    <div class="ringtone-row-child">
-                        <span>super_mario_bros</span>
-                    </div>
-                    <div class="ringtone-row-child">
-                        Super Mario
-                    </div>
-                    <div class="ringtone-row-child">
-                        Nieje pridané výrobcom
+                <div class="ctr">
+                    <div class="fx-100">
+                        <div class="ringtone-row">
+                            <div class="ringtone-row-child">
+                                <audio controls controlsList="nodownload">
+                                    <source src="./resources/ringtones/piano_rythm.mp3" type="audio/ogg">
+                                </audio>
+                            </div>
+                            <div class="ringtone-row-child">
+                                <span>piano_rhythm</span>
+                            </div>
+                            <div class="ringtone-row-child">
+                                Xiaomi
+                            </div>
+                            <div class="ringtone-row-child">
+                                Nieje pridané výrobcom
+                            </div>
+                        </div>
                     </div>
                 </div>
-
+                <div class="ctr">
+                    <div class="fx-100">
+                        <div class="ringtone-row">
+                            <div class="ringtone-row-child">
+                                <audio controls controlsList="nodownload">
+                                    <source src="./resources/ringtones/super_mario_bros.mp3" type="audio/ogg">
+                                </audio>
+                            </div>
+                            <div class="ringtone-row-child">
+                                <span>super_mario_bros</span>
+                            </div>
+                            <div class="ringtone-row-child">
+                                Super Mario
+                            </div>
+                            <div class="ringtone-row-child">
+                                Nieje pridané výrobcom
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="ctr center">
                     <h2 class="center heading-space">Prostredie telefónu</h2>
                     <video controls autoplay>
@@ -81,8 +92,6 @@ $cssFilePaths = [
                     </video>
                 </div>
             </div>
-        </div>
-
         </div>
     </main>
 <?php include('resources/partials/footer.php') ?>

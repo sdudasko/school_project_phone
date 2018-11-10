@@ -29,7 +29,7 @@ textarea.page-contact__form-input {
     margin-right: 5%;
 }
 .page-contact__form-input--message {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .page-contact__form-input--message textarea {
     height: 400px;
@@ -73,5 +73,11 @@ textarea.page-contact__form-input {
     .page-contact__consent-checkbox-text {
         width: 92%;
         float: left;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .page-contact__form-input--message {
+        margin-top: 0;
     }
 }

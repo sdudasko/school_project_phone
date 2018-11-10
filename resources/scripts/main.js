@@ -4,6 +4,13 @@ function isScrolled() {
     return scrollTop > 1;
 }
 
+function closeBurgerNav() {
+    console.log('getting here');
+    document.getElementsByClassName('top-navigation')[0]
+        .classList
+        .remove("opened");
+}
+
 function onIsScrolledEventFire() {
     let elem = document.getElementsByClassName('top-navigation')[0];
 
@@ -19,9 +26,14 @@ function onIsScrolledEventFire() {
 }
 
 window.addEventListener('load', function () {
+
     onIsScrolledEventFire();
+
     document.onscroll = function () {
         onIsScrolledEventFire();
+        if (window.innerWidth >= 700) {
+            closeBurgerNav();
+        }
     }
 
     document.getElementsByClassName('hamburger')[0].addEventListener('click', function () {

@@ -34,7 +34,7 @@ $cssFilePaths = [
                             <img src="./img/front_mirror.png" alt="" class="page-photo__img">
                         </div>
                     </div>
-                    <div class="fx-33 page-photo__img-outer"></div>
+                    <div class="fx-33 page-photo__img-outer empty-991"></div>
                 </div>
                 <div class="ctr">
                     <p class="center">

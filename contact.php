@@ -18,7 +18,7 @@ $cssFilePaths = [
                             <div class="fleft fx-50 page-contact__form__input">
                                 <input type="text" placeholder="Meno" class="page-contact__form-input">
                             </div>
-                            <div class="fleft fx-50">
+                            <div class="fleft fx-50 page-contact__form__input">
                                 <input type="text" placeholder="E-mail" class="page-contact__form-input">
                             </div>
                         </div>

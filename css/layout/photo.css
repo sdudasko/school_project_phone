@@ -37,6 +37,9 @@
     .empty-991 {
         display: none;
     }
+    .btn-see-more {
+        margin-top: 0;
+    }
 }
 @media screen and (max-width: 500px) {
     .page-photo__img-outer {
