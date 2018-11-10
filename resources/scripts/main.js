@@ -26,7 +26,7 @@ window.addEventListener('load', function () {
 
     document.getElementsByClassName('hamburger')[0].addEventListener('click', function () {
         let elem = document.getElementsByClassName('hamburger')[0];
-        let header = document.getElementsByClassName('main-header')[0];
+        let header = document.getElementsByClassName('top-navigation')[0];
 
         if (!header.classList.contains('opened')) {
             header.className += ' opened';

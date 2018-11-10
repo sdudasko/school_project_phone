@@ -38,7 +38,7 @@ $cssFilePaths = [
             <div class="ct">
                 <div class="ctr page-homepage__red-sec">
                     <div class="fx-22 page-homepage__ui-sec-video">
-                        <video autoplay muted>
+                        <video autoplay muted loop>
                             <source src="./resources/video/video_user_interaction.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>

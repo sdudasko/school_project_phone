@@ -19,7 +19,9 @@
                 </p>
             </div>
             <div class="fx-50">
-                Stay in touch and <a href="/contact.php" class="footer-link">Contact us</a>.
+                <p class="footer-contact-text">
+                    Stay in touch and <a href="/contact.php" class="footer-link">Contact us</a>.
+                </p>
             </div>
         </div>
     </div>

@@ -31,3 +31,9 @@ footer {
     position: relative;
     top: -12px;
 }
+
+@media screen and (max-width: 600px) {
+    .footer-contact-text {
+        padding-left: 34px;
+    }
+}

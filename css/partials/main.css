@@ -25,9 +25,8 @@ a {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
 .page {
-    margin-top: 100px;
+    padding-top: 80px;
 }
 
 .center {
@@ -115,6 +114,45 @@ a {
 }
 .fxo-16 {
     margin-left: 16.6666%;
+}
+
+@media screen and (max-width: 600px) {
+    .fx-100 {
+        width: 100%;
+    }
+    .fx-83 {
+        width: 100%;
+    }
+    .fx-66 {
+        width: 100%;
+    }
+    .fx-58 {
+        width: 100%;
+    }
+    .fx-50 {
+        width: 100%;
+    }
+    .fx-41 {
+        width: 100%;
+    }
+    .fx-33 {
+        width: 100%;
+    }
+    .fx-30 {
+        width: 100%;
+    }
+    .fx-25 {
+        width: 100%;
+    }
+    .fx-22 {
+        width: 100%;
+    }
+    .fx-16 {
+        width: 100%;
+    }
+    .fx-8 {
+        width: 100%;
+    }
 }
 
 .btn-red {

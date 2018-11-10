@@ -15,7 +15,7 @@ $cssFilePaths = [
 
                     <form action="" class="page-contact page-contact__form" method="post">
                         <div class="ctr">
-                            <div class="fleft fx-50">
+                            <div class="fleft fx-50 page-contact__form__input">
                                 <input type="text" placeholder="Meno" class="page-contact__form-input">
                             </div>
                             <div class="fleft fx-50">
@@ -30,8 +30,12 @@ $cssFilePaths = [
                         </div>
                         <div class="ctr page-contact__consent-wrapper">
                             <div class="fx-100">
-                                <input type="checkbox" name="consent_agreed" id="consent_agreed">
-                                <label for="consent_agreed">Súhlasím so spracovaním osobných údajov.</label>
+                                <div class="page-contact__consent-checkbox">
+                                    <input type="checkbox" name="consent_agreed" id="consent_agreed">
+                                </div>
+                                <div class="page-contact__consent-checkbox-text">
+                                    <label for="consent_agreed">Súhlasím so spracovaním osobných údajov.</label>
+                                </div>
                             </div>
                         </div>
                         <div class="ctr center">

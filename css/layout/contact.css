@@ -6,6 +6,9 @@ input, textarea {
 textarea.page-contact__form-input {
     padding-top: 25px;
 }
+.page-contact__form__input {
+    margin-bottom: 20px;
+}
 .page-contact__form-wrapper {
     width: 80%;
     margin: 0 auto;
@@ -40,4 +43,35 @@ textarea.page-contact__form-input {
 }
 .page-contact__consent-wrapper label {
     cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .page-contact__form-input--message textarea {
+        height: 200px;
+    }
+    .page-contact__form-wrapper {
+        width: 95%;
+    }
+}
+.page-contact__consent-checkbox {
+    float: none;
+}
+.page-contact__consent-checkbox, .page-contact__consent-checkbox-text {
+    float: left;
+}
+.page-contact__consent-checkbox-text label {
+    position: relative;
+    top: 2px;
+    left: 8px;
+}
+
+@media screen and (max-width: 500px) {
+    .page-contact__consent-checkbox {
+        width: 8%;
+        float: left;
+    }
+    .page-contact__consent-checkbox-text {
+        width: 92%;
+        float: left;
+    }
 }

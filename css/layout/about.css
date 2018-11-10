@@ -37,6 +37,9 @@
     margin-left: 0;
     padding: 0 25px;
 }
+.page-about__section-white {
+    margin-bottom: 25px;
+}
 
 @media screen and (max-width: 1199px) {
     .mobile-back-detail img {
@@ -60,7 +63,7 @@
     .page-about__section-white {
         width: 100%;
         padding: 0 25px;
-        margin: 0 0 25px;
+        margin-left: 0;
     }
 }
 

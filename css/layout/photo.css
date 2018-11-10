@@ -22,3 +22,24 @@
     overflow: hidden;
     display: grid;
 }
+@media screen and (max-width: 991px) {
+    .page-photo__img-outer {
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        float: none;
+    }
+    .page-photo__row {
+        margin-bottom: 0;
+    }
+    .empty-991 {
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .page-photo__img-outer {
+        width: 100%;
+    }
+}
