@@ -16,9 +16,6 @@
     width: 25%;
     text-align: center;
 }
-.ringtone-row-child:last-child {
-    /*padding: 15px 70px;*/
-}
 .ringtone-row-child:not(:last-child):after {
     content: '';
     position: absolute;
@@ -82,4 +79,17 @@ video {
         width: 50%;
     }
 }
-.ringtone-row-child
+.features__gif {
+    max-width: 300px;
+}
+
+@media screen and (max-width: 450px) {
+    .ringtone-row {
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 10px 0;
+    }
+    .ringtone-row-child {
+        width: 100%;
+    }
+}

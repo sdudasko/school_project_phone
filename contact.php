@@ -1,6 +1,6 @@
 <?php
 $cssFilePaths = [
-    '/css/layout/contact.css'
+    '/resources/css/layout/contact.css'
 ];
 ?>
 

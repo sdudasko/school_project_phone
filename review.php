@@ -1,7 +1,7 @@
 <?php
 $cssFilePaths = [
-    '/css/layout/review.css',
-    '/css/partials/modals/review_create.css',
+    '/resources/css/layout/review.css',
+    '/resources/css/partials/modals/review_create.css',
 ];
 $jsFilePaths = [
     '/resources/scripts/review.js',

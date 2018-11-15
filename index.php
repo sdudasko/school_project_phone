@@ -1,6 +1,6 @@
 <?php
 $cssFilePaths = [
-    '/css/layout/homepage.css'
+    '/resources/css/layout/homepage.css'
 ];
 ?>
 <?php include('resources/partials/header.php') ?>
@@ -27,7 +27,7 @@ $cssFilePaths = [
                     </div>
                     <div class="fx-41 page-homepage__claim__wrapper__img-wrapper-outer">
                         <div class="page-homepage__img-wrap">
-                            <img src="./img/back8.png" alt="Redmi 4A" width="1458" height="2354"
+                            <img src="./resources/img/back8.png" alt="Redmi 4A" width="1458" height="2354"
                                  class="page-homepage__image">
                         </div>
                     </div>

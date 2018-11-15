@@ -13,7 +13,7 @@
                 <div class="fx-16 top-navigation__logo-wrapper">
                     <div class="top-navigation__logo">
                         <a href="/index.php">
-                            <img src="/img/logo.svg" alt="Redmi 4A">
+                            <img src="/resources/img/logo.svg" alt="Redmi 4A">
                         </a>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 <?php
 $cssFilePaths = [
-    '/css/layout/specification.css'
+    '/resources/css/layout/specification.css'
 ];
 ?>
 

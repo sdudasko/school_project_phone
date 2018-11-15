@@ -1,6 +1,6 @@
 <?php
 $cssFilePaths = [
-    '/css/layout/photo.css'
+    '/resources/css/layout/photo.css'
 ];
 ?>
 
@@ -13,28 +13,43 @@ $cssFilePaths = [
                 <div class="ctr page-photo__row">
                     <div class="fx-33 page-photo__img-outer">
                         <div class="page-photo__img-wrapper">
-                            <img src="./img/mobile_front.jpg" alt="" class="page-photo__img">
+                            <img src="./resources/img/mobile_front.jpg" alt="Xiaomi" class="page-photo__img">
                         </div>
                     </div>
                     <div class="fx-33 page-photo__img-outer">
                         <div class="page-photo__img-wrapper">
-                            <img src="./img/mobile_back.png" alt="" class="page-photo__img">
+                            <img src="./resources/img/mobile_back.png" alt="Xiaomi" class="page-photo__img">
                         </div>
                     </div>
                     <div class="fx-33 page-photo__img-outer">
                         <div class="page-photo__img-wrapper">
-                            <img src="./img/nabijacka.jpg" alt="" class="page-photo__img">
+                            <img src="./resources/img/nabijacka.jpg" alt="Xiaomi" class="page-photo__img">
+                        </div>
+                    </div>
+                </div>
+                <div class="ctr page-photo__row">
+                    <div class="fx-33 page-photo__img-outer">
+                        <div class="page-photo__img-wrapper">
+                            <img src="./resources/img/int_1.png" alt="Xiaomi" class="page-photo__img">
+                        </div>
+                    </div>
+                    <div class="fx-33 page-photo__img-outer">
+                        <div class="page-photo__img-wrapper">
+                            <img src="./resources/img/front_mirror.png" alt="Xiaomi" class="page-photo__img">
+                        </div>
+                    </div>
+                    <div class="fx-33 page-photo__img-outer">
+                        <div class="page-photo__img-wrapper">
+                            <img src="./resources/img/int_2.png" alt="Xiaomi" class="page-photo__img">
                         </div>
                     </div>
                 </div>
                 <div class="ctr">
-                    <div class="fx-33 page-photo__img-outer empty-991"></div>
                     <div class="fx-33 page-photo__img-outer">
                         <div class="page-photo__img-wrapper">
-                            <img src="./img/front_mirror.png" alt="" class="page-photo__img">
+                            <img src="./resources/img/int_3.png" alt="Xiaomi" class="page-photo__img">
                         </div>
                     </div>
-                    <div class="fx-33 page-photo__img-outer empty-991"></div>
                 </div>
                 <div class="ctr">
                     <p class="center">

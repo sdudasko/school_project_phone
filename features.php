@@ -1,6 +1,6 @@
 <?php
 $cssFilePaths = [
-    '/css/layout/features.css'
+    '/resources/css/layout/features.css'
 ];
 ?>
 
@@ -33,7 +33,7 @@ $cssFilePaths = [
                                 </audio>
                             </div>
                             <div class="ringtone-row-child">
-                                <span>EmailIncoming</span>
+                                <span>Email incoming</span>
                             </div>
                             <div class="ringtone-row-child">
                                 Xiaomi
@@ -53,7 +53,7 @@ $cssFilePaths = [
                                 </audio>
                             </div>
                             <div class="ringtone-row-child">
-                                <span>piano_rhythm</span>
+                                <span>Piano Rythm</span>
                             </div>
                             <div class="ringtone-row-child">
                                 Xiaomi
@@ -73,7 +73,7 @@ $cssFilePaths = [
                                 </audio>
                             </div>
                             <div class="ringtone-row-child">
-                                <span>super_mario_bros</span>
+                                <span>Super Mario Bros</span>
                             </div>
                             <div class="ringtone-row-child">
                                 Super Mario
@@ -84,12 +84,24 @@ $cssFilePaths = [
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="ct">
                 <div class="ctr center">
                     <h2 class="center heading-space">Prostredie telefónu</h2>
                     <video controls autoplay>
                         <source src="./resources/video/live_interacion.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
+                </div>
+                <div class="ctr">
+                    <div class="fx-100 center">
+                        <img src="/resources/gifs/1.gif" alt="Gif Xiaomi" class="features__gif">
+                    </div>
+                </div>
+                <div class="ctr">
+                    <div class="fx-100 center">
+                        <img src="/resources/gifs/2.gif" alt="Gif Xiaomi" class="features__gif">
+                    </div>
                 </div>
             </div>
         </div>

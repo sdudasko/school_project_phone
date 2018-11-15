@@ -1,7 +1,7 @@
 <?php
 $cssFilePaths = [
-    '/css/layout/comparison.css',
-    '/css/layout/specification.css',
+    '/resources/css/layout/comparison.css',
+    '/resources/css/layout/specification.css',
 ];
 ?>
 

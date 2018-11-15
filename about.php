@@ -1,6 +1,6 @@
 <?php
 $cssFilePaths = [
-    '/css/layout/about.css'
+    '/resources/css/layout/about.css'
 ];
 ?>
 
@@ -45,7 +45,7 @@ $cssFilePaths = [
                         </div>
                         <div class="fleft fx-50 center page-about__section__img-wrapper">
                             <div class="mobile-back-detail">
-                                <img src="./img/phone_back_detail.png" alt="Mi 4A">
+                                <img src="./resources/img/phone_back_detail.png" alt="Mi 4A">
                             </div>
                         </div>
                     </div>
