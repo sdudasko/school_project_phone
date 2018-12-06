@@ -2,6 +2,10 @@
 $cssFilePaths = [
     '/resources/css/layout/homepage.css'
 ];
+
+$langFile = include('resources/lang/frontend.php');
+$locale = 'sk';
+
 ?>
 <?php include('resources/partials/header.php') ?>
 <?php include('resources/partials/nav.php') ?>
@@ -12,11 +16,12 @@ $cssFilePaths = [
                     <div class="fx-58 page-homepage__claim__wrapper">
                         <div class="page-homepage__claim">
                             <h1>
-                                Redmi 4A
+                                <?= $langFile[$locale]['homepage']['title'] ?>
                             </h1>
                             <p>
-                                Špičková výdž batérie pre Vaše potreby<br class="page-homepage__claim__br">
-                                Teraz za skvelú cenu s pomerom na výkon
+                                <?= $langFile[$locale]['homepage']['claim_1'] ?>
+                                <br class="page-homepage__claim__br">
+                                <?= $langFile[$locale]['homepage']['claim_2'] ?>
                             </p>
                             <p>
                                 <a href="/about.php" class="btn-red">

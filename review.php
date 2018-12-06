@@ -1,17 +1,8 @@
 <?php
 
-use Controllers\PostController;
+require_once 'autoloader.php';
 
-$classes = 'Controller';
-$classes = 'PostController';
-
-spl_autoload_register(function($className)
-{
-    $namespace = str_replace("\\","/",__NAMESPACE__);
-    $className = str_replace("\\","/",$className);
-    $class = (empty($namespace)?"":$namespace."/")."{$className}.php";
-    include_once($class);
-});
+use Controllers\ReviewController;
 
 $cssFilePaths = [
     '/resources/css/layout/review.css',
@@ -20,15 +11,8 @@ $cssFilePaths = [
 $jsFilePaths = [
     '/resources/scripts/review.js',
 ];
-const TIMES = 2;
 
-(new PostController())
-    ->postReview([
-        'Steuko',
-        'Text spravicky',
-        '2018-12-26',
-    ]);
-
+$reviews = (new ReviewController)->getReviews();
 
 ?>
 
@@ -40,29 +24,25 @@ const TIMES = 2;
             <h1 class="page-review__main-heading center margined">Recenzie</h1>
         </div>
         <div class="ct">
-            <?php for ($i = 1; $i <= TIMES; $i++) { ?>
-                <img src=<?= "'/resources/img/img_'.$i" ?> alt="">
+            <?php if (!empty($reviews)) { ?>
+            <?php foreach ($reviews as $review) { ?>
                 <div class="page-review__post-section">
                     <div class="page-review__post">
                         <div class="ctr">
                             <div class="fx-100">
-                                <span class="page-review__user">User1234</span>
+                                <span class="page-review__user"><?= $review->name ?></span>
                             </div>
                         </div>
                         <div class="ctr">
                             <div class="fx-100">
                                 <p class="page-review__post__text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi consequuntur
-                                    cupiditate
-                                    dolorem doloribus eligendi eum, exercitationem ipsam, iure, maxime minima neque non
-                                    nulla
-                                    pariatur quas quo tempora unde voluptatibus?
+                                    <?= $review->text ?>
                                 </p>
                             </div>
                         </div>
-
                     </div>
                 </div>
+                <?php } ?>
             <?php } ?>
             <div class="ctr center" style="margin: 20px 0;">
                 <div class="fx-100">
