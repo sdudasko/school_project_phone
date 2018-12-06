@@ -9,6 +9,9 @@
     <?php foreach ($cssFilePaths as $path) { ?>
         <link rel="stylesheet" type="text/css" href="<?= $path ?>">
     <?php } ?>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
 
     <script src="/resources/scripts/main.js" type="text/javascript"></script>
     <title>Xiaomi Mi 4A</title>

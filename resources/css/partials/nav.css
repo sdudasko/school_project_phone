@@ -31,7 +31,7 @@
     -webkit-transition: opacity .35s cubic-bezier(0,0,0,1.15),-webkit-transform .35s cubic-bezier(0,0,0,1.15);
     transition: opacity .35s cubic-bezier(0,0,0,1.15),transform .35s cubic-bezier(0,0,0,1.15);
     z-index: 5;
-}
+}π
 
 .scrolled .nav-inner:before {
     opacity: 1;

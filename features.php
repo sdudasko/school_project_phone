@@ -88,7 +88,7 @@ $cssFilePaths = [
             <div class="ct">
                 <div class="ctr center">
                     <h2 class="center heading-space">Prostredie telefónu</h2>
-                    <video controls autoplay>
+                    <video autoplay muted loop>
                         <source src="./resources/video/live_interacion.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
