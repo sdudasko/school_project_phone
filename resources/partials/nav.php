@@ -1,3 +1,8 @@
+<?php
+
+$uri_parts = explode('?', $_SERVER['REQUEST_URI'], 2);
+$url =  'http://' . $_SERVER['HTTP_HOST'] . $uri_parts[0];
+?>
 <nav class="top-navigation">
     <div class="nav-inner">
         <div class="ct nav-inner__ct">
@@ -34,6 +39,11 @@
                         <li class="top-navigation__list-item"><a href="/contact.php"
                                                                  class="top-navigation__list-item-link">Kontakt</a>
                         </li>
+                        <?php if ((!isset($_GET['lang']) || ($_GET['lang']) && $_GET['lang'] == 'en')) { ?>
+                        <li class="top-navigation__list-item"><a href=<?= $url.'?lang=sk' ?>>SK</a></li>
+                        <?php } else { ?>
+                        <li class="top-navigation__list-item"><a href=<?= $url.'?lang=en' ?>>EN</a></li>
+                        <?php } ?>
                     </ul>
                 </div>
             </div>

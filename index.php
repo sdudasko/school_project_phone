@@ -3,8 +3,7 @@ $cssFilePaths = [
     '/resources/css/layout/homepage.css'
 ];
 
-$langFile = include('resources/lang/frontend.php');
-$locale = 'sk';
+require_once 'lang_switcher.php';
 
 ?>
 <?php include('resources/partials/header.php') ?>
@@ -25,7 +24,7 @@ $locale = 'sk';
                             </p>
                             <p>
                                 <a href="/about.php" class="btn-red">
-                                    Ďalšie informácie
+                                    <?= $langFile[$locale]['homepage']['more_info'] ?>
                                 </a>
                             </p>
                         </div>
@@ -45,16 +44,16 @@ $locale = 'sk';
                     <div class="fx-22 page-homepage__ui-sec-video">
                         <video autoplay muted loop>
                             <source src="./resources/video/video_user_interaction.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
+                            <?= $langFile[$locale]['homepage']['video']['no_support'] ?>
                         </video>
                     </div>
                     <div class="fx-66 page-homepage__ui-sec-wrapper-outer">
                         <div class="page-homepage__ui-sec-wrapper">
                             <div>
-                                <span class="page-homepage__ui-sec__teas">S novým vylepšeným UI</span>
+                                <span class="page-homepage__ui-sec__teas"><?= $langFile[$locale]['homepage']['video']['teaser'] ?></span>
                             </div>
                             <div>
-                                <span class="page-homepage__ui-sec__sub-teas">S personalizovanými funkciami priamo pre Vás</span>
+                                <span class="page-homepage__ui-sec__sub-teas"><?= $langFile[$locale]['homepage']['video']['sub_teaser'] ?></span>
                             </div>
                         </div>
                     </div>
