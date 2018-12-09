@@ -1,9 +1,9 @@
 <?php
+require_once 'base.php';
+
 $cssFilePaths = [
     '/resources/css/layout/homepage.css'
 ];
-
-require_once 'lang_switcher.php';
 
 ?>
 <?php include('resources/partials/header.php') ?>
@@ -23,7 +23,7 @@ require_once 'lang_switcher.php';
                                 <?= $langFile[$locale]['homepage']['claim_2'] ?>
                             </p>
                             <p>
-                                <a href="/about.php" class="btn-red">
+                                <a href="/about.php?lang=<?= $locale ?>" class="btn-red">
                                     <?= $langFile[$locale]['homepage']['more_info'] ?>
                                 </a>
                             </p>

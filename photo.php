@@ -1,4 +1,6 @@
 <?php
+require_once 'base.php';
+
 $cssFilePaths = [
     '/resources/css/layout/photo.css'
 ];
@@ -15,9 +17,9 @@ foreach($dir as $i => $file) {
         array_push($images, $file);
     }
 }
-$unused_images = ['back8.png', 'phone_back_detail.png'];
+$excluded_images = ['back8.png', 'phone_back_detail.png'];
 
-foreach($unused_images as $image) {
+foreach($excluded_images as $image) {
     unset($images[array_search($image, $images)]);
 }
 
@@ -29,7 +31,7 @@ $images = array_chunk($images, 3, false);
 <?php include('resources/partials/nav.php') ?>
     <main>
         <div class="page page-photo">
-            <h1 class="page-photo__main-heading center margined">Fotogaléria</h1>
+            <h1 class="page-photo__main-heading center margined"><?= $langFile[$locale]['photo']['title'] ?></h1>
             <div class="ct">
                 <?php foreach ($images as $index => $image_row) { ?>
                 <div class="ctr page-photo__row">
@@ -44,7 +46,7 @@ $images = array_chunk($images, 3, false);
                 <?php } ?>
                 <div class="ctr">
                     <p class="center">
-                        <a href="#" class="btn-blue btn-see-more">Vidieť viac...</a>
+                        <a href="#" class="btn-blue btn-see-more"><?= $langFile[$locale]['photo']['see_more'] ?></a>
                     </p>
                 </div>
             </div>

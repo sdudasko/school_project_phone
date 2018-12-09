@@ -1,6 +1,6 @@
 <?php
 
-require_once 'autoloader.php';
+require_once 'base.php';
 
 use Controllers\ReviewController;
 
@@ -21,7 +21,7 @@ $reviews = (new ReviewController)->getReviews();
 <?php include('resources/partials/review_create.php') ?>
     <main>
         <div class="page page-review">
-            <h1 class="page-review__main-heading center margined">Recenzie</h1>
+            <h1 class="page-review__main-heading center margined"><?= $langFile[$locale]['review']['title'] ?></h1>
         </div>
         <div class="ct">
             <?php if (!empty($reviews)) { ?>
@@ -46,7 +46,7 @@ $reviews = (new ReviewController)->getReviews();
             <?php } ?>
             <div class="ctr center" style="margin: 20px 0;">
                 <div class="fx-100">
-                    <span class="page-review__post-reply">Odpovedať</span>
+                    <span class="page-review__post-reply"><?= $langFile[$locale]['review']['answer'] ?></span>
                 </div>
             </div>
         </div>

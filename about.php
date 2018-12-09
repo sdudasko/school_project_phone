@@ -1,9 +1,11 @@
 <?php
+require_once 'base.php';
+
 $cssFilePaths = [
     '/resources/css/layout/about.css'
 ];
-?>
 
+?>
 <?php include('resources/partials/header.php') ?>
 <?php include('resources/partials/nav.php') ?>
     <main>
@@ -57,10 +59,7 @@ $cssFilePaths = [
                                 <a href="/features.php" class="main-link"><?= $langFile[$locale]['about']['secondary_section']['try_out_ringtones'] ?></a>!
                             </p>
                             <p class="p">
-                                Nakoľko máme veľa spokojných zákazníkov, ktorí sa radi podelia o svoje zážitky a svoje
-                                pocity s
-                                kúpou tohto telefónu,
-                                môžete si ich názor.
+                                <?= $langFile[$locale]['about']['secondary_section']['description'] ?>
                             </p>
                         </div>
                     </div>

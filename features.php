@@ -1,4 +1,6 @@
 <?php
+require_once 'base.php';
+
 $cssFilePaths = [
     '/resources/css/layout/features.css'
 ];
@@ -9,16 +11,11 @@ $cssFilePaths = [
     <main>
         <div class="page page-features">
             <div class="ct">
-                <h1 class="page-about__main-heading center margined">Funkcie</h1>
+                <h1 class="page-about__main-heading center margined"><?= $langFile[$locale]['features']['title'] ?></h1>
                 <div class="ctr">
                     <div class="fx-100">
                         <p class="page-features__claim-wrapper">
-                            Tak, ako každý moderný mobilný telefón s operačným systémom Android, tak aj Redmi 4A
-                            disponuje množstvom skvelých vychytávok.
-                            Každý uživateľ určite ocení svelý fotoaparát, možnosť Dual Sim, USB-C konektor, ohromnú
-                            výdrž batérie. Schopnosť integrácie a prepojenia s Mi Bandom.
-                            Ďalej by sme Vám radi ponúkli možnosť vypočuť si zopár zo štandardných zvovení, ktoré sa v
-                            telefóne už nachádzajú, alebo si ich tam môžete doplniť:
+                            <?= $langFile[$locale]['features']['claim'] ?>
                         </p>
                     </div>
                 </div>
@@ -33,13 +30,13 @@ $cssFilePaths = [
                                 </audio>
                             </div>
                             <div class="ringtone-row-child">
-                                <span>Email incoming</span>
+                                <span><?= $langFile[$locale]['features']['ringtones']['1']['title'] ?></span>
                             </div>
                             <div class="ringtone-row-child">
-                                Xiaomi
+                                <?= $langFile[$locale]['features']['ringtones']['1']['manufacturer'] ?>
                             </div>
                             <div class="ringtone-row-child">
-                                Nieje pridané výrobcom
+                                <?= $langFile[$locale]['features']['ringtones']['1']['default'] ?>
                             </div>
                         </div>
                     </div>
@@ -53,13 +50,13 @@ $cssFilePaths = [
                                 </audio>
                             </div>
                             <div class="ringtone-row-child">
-                                <span>Piano Rythm</span>
+                                <span><?= $langFile[$locale]['features']['ringtones']['2']['title'] ?></span>
                             </div>
                             <div class="ringtone-row-child">
-                                Xiaomi
+                                <?= $langFile[$locale]['features']['ringtones']['2']['manufacturer'] ?>
                             </div>
                             <div class="ringtone-row-child">
-                                Nieje pridané výrobcom
+                                <?= $langFile[$locale]['features']['ringtones']['2']['default'] ?>
                             </div>
                         </div>
                     </div>
@@ -73,13 +70,13 @@ $cssFilePaths = [
                                 </audio>
                             </div>
                             <div class="ringtone-row-child">
-                                <span>Super Mario Bros</span>
+                                <span><?= $langFile[$locale]['features']['ringtones']['3']['title'] ?></span>
                             </div>
                             <div class="ringtone-row-child">
-                                Super Mario
+                                <?= $langFile[$locale]['features']['ringtones']['3']['manufacturer'] ?>
                             </div>
                             <div class="ringtone-row-child">
-                                Nieje pridané výrobcom
+                                <?= $langFile[$locale]['features']['ringtones']['3']['default'] ?>
                             </div>
                         </div>
                     </div>
@@ -87,10 +84,10 @@ $cssFilePaths = [
             </div>
             <div class="ct">
                 <div class="ctr center">
-                    <h2 class="center heading-space">Prostredie telefónu</h2>
+                    <h2 class="center heading-space"><?= $langFile[$locale]['features']['secondary_section']['title'] ?></h2>
                     <video autoplay muted loop>
                         <source src="./resources/video/live_interacion.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
+                        <?= $langFile[$locale]['features']['secondary_section']['no_support'] ?>
                     </video>
                 </div>
                 <div class="ctr">

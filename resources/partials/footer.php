@@ -20,7 +20,7 @@
             </div>
             <div class="fx-50">
                 <p class="footer-contact-text">
-                    Stay in touch and <a href="/contact.php" class="footer-link">Contact us</a>.
+                    Stay in touch and <a href="/contact.php?lang=<?= $locale ?>" class="footer-link">Contact us</a>.
                 </p>
             </div>
         </div>
