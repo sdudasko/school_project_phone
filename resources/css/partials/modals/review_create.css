@@ -43,6 +43,9 @@
 }
 textarea.review-modal-input {
     min-height: 200px;
+    border: 1px solid #CCCCCC;
+    padding: 15px 10px;
+    font-size: 14px;
 }
 .review-modal__cta-cancel {
     color: #009688;

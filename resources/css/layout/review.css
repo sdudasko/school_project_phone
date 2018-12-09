@@ -12,7 +12,8 @@
     margin: 8px 0;
 }
 .page-review__post-reply {
-    color: #606770;
+    color: #009688;
+    font-weight: 500;
 }
 .page-review__post-reply:hover {
     cursor: pointer;

@@ -1,6 +1,22 @@
 <?php
     return [
         'sk' => [
+            'nav' => [
+                'menu' => 'Menu',
+                'about' => 'O telefóne',
+                'features' => 'Funkcie',
+                'photo' => 'Foto',
+                'review' => 'Recenzie',
+                'contact' => 'Kontakt',
+            ],
+            'modal_create' => [
+                'publish' => 'Uverejniť príspevok',
+                'or' => 'alebo',
+                'cancel' => 'zrušiť',
+                'text' => 'Text správy...',
+                'name' => 'Meno...',
+                'cta' => 'Zverejniť',
+            ],
             'homepage' => [
                 'title' => 'Redmi 4A',
                 'claim_1' => 'Špičková výdž batérie pre Vaše potreby',
@@ -43,6 +59,8 @@
             'review' => [
                 'title' => 'Recenzie',
                 'answer' => 'Odpovedať',
+                'no_reviews' => 'Na tento produkt zatiaľ neboli pridané žiadne recenzie',
+                'make_a_review' => 'Napíšte recenziu ako prvý!'
             ],
             'features' => [
                 'title' => 'Funkcie',
@@ -121,7 +139,7 @@
                         'items' => [
                             1 => [
                                 'Veľkosť displeja',
-                                '5 "\"',
+                                "5\"",
                             ],
                             2 => [
                                 'Rozlíšenie displeja',
@@ -252,10 +270,261 @@
             ],
         ],
         'en' => [
+            'nav' => [
+                'menu' => 'Menu',
+                'about' => 'About',
+                'features' => 'Features',
+                'photo' => 'Photo',
+                'review' => 'Review',
+                'contact' => 'Contact',
+            ],
+            'modal_create' => [
+                'publish' => 'Publish post',
+                'or' => 'or',
+                'cancel' => 'cancel',
+                'text' => 'Message...',
+                'name' => 'Name...',
+                'cta' => 'Publish',
+            ],
             'homepage' => [
                 'title' => 'Redmi 4A',
-                'claim_1' => 'en',
-                'claim_2' => 'en',
+                'claim_1' => 'Perfect battery endurance for your needs!',
+                'claim_2' => 'Now in great price compared to its performance',
+                'more_info' => 'More information',
+
+                'video' => [
+                    'teaser' => 'With the better UI',
+                    'sub_teaser' => 'With the personalized functions for you',
+                    'no_support' => 'Your browser does not support videos.',
+                ],
+            ],
+            'about' => [
+                'title' => 'About phone',
+                'claim_1' => 'New Redmi 4A carries out the classic monolithic design, made out precisely from aluminium.
+Phone is suitable for everyone who wants mobile great price.',
+                'claim_2' => 'If you want a phone in which you basically do everything you want to, with presistant baterry that you will appriciate mostly on long journeys - this model is clear choice.',
+                'teasing' => 'Now with the better construction<br>that is more<br>resistant agains<br>falls.',
+                'cta_btn' => 'Go to specification.',
+                'secondary_section' => [
+                    'claim' => 'Redmi offers many features that you can take a look in this site.',
+                    'try_out' => 'Try some of new ringtones!',
+                    'try_out_ringtones' => 'ringtones',
+                    'description' => 'Since we have many satisfied customers that would like to share their exeriences - you can see their oppinions about the phone.',
+                ]
+            ],
+            'photo' => [
+                'title' => 'Photogallery',
+                'see_more' => 'See more...',
+            ],
+            'review' => [
+                'title' => 'Review',
+                'answer' => 'Answer',
+                'no_reviews' => 'There are no reviews just yet.',
+                'make_a_review' => 'Be the first one to make a review!'
+            ],
+            'features' => [
+                'title' => 'Features',
+                'claim' => 'As well as all modern mobile phones with operation system android the Redmi 4A also disposes with many great functions.
+Every user certainly appreciates amazing camera, possibility of Dual Sim, USB-C connector and amazing battery endurance. Ability of integration and connection with Mi Band.
+We would also like to offer you possibility to play a few of standard ringtones that are built-in the phone out of base. You can also add the ringtones you like: 
+',
+                'ringtones' => [
+                    '1' => [
+                        'title' => 'Email incoming',
+                        'manufacturer' => 'Xiaomi',
+                        'default' => 'Not added by deafult',
+                    ],
+                    '2' => [
+                        'title' => 'Piano Rythm',
+                        'manufacturer' => 'Xiaomi',
+                        'default' => 'Not added by deafult',
+                    ],
+                    '3' => [
+                        'title' => 'Super Mario Bros',
+                        'manufacturer' => 'Super Mario',
+                        'default' => 'Not added by deafult',
+                    ]
+                ],
+                'secondary_section' => [
+                    'title' => 'Phone environment',
+                    'no_support' => 'Your browser does not support videos.',
+                ],
+            ],
+            'contact' => [
+                'title' => 'Contact',
+                'name' => 'Name',
+                'consent_agreed' => 'I agree with terms and conditions.',
+                'send' => 'Send',
+            ],
+            'specification' => [
+                'title' => 'Technic specification',
+                'table' => [
+                    'overview' => [
+                        'title' => 'Overview',
+                        'items' => [
+                            1 => [
+                                'Manufacturer',
+                                'Xiaomi',
+                            ],
+                            2 => [
+                                'Construction',
+                                'touchable',
+                            ],
+                            3 => [
+                                'OS',
+                                'Android',
+                            ],
+                            4 => [
+                                'OS version',
+                                'Android 6.0 (Marshmallow)',
+                            ],
+                            5 => [
+                                'Weight',
+                                '156 g',
+                            ],
+                            6 => [
+                                'Memory card',
+                                'yes',
+                            ],
+                            7  => [
+                                'RAM',
+                                '2048 MB',
+                            ],
+                        ],
+                    ],
+                    'display' => [
+                        'title' => 'Display',
+                        'items' => [
+                            1 => [
+                                'Display size',
+                                "5\"",
+                            ],
+                            2 => [
+                                'Display resolution',
+                                '1280 x 720',
+                            ],
+                            3 => [
+                                'Number of colors',
+                                '16000000',
+                            ],
+                        ],
+                    ],
+                    'battery' => [
+                        'title' => 'Capacity of battery',
+                        'items' => [
+                            1 => [
+                                'Capacity of battery',
+                                '3120 mAh',
+                            ],
+                        ],
+                    ],
+                    'hardware' => [
+                        'title' => 'Capacity of battery',
+                        'items' => [
+                            0 => [
+                                'Processor frequency',
+                                '1.4 GHz',
+                            ],
+                            1 => [
+                                'Processor cores count',
+                                '4',
+                            ],
+                            2 => [
+                                'Memory',
+                                '16 GB',
+                            ],
+                            3 => [
+                                'Dual sim',
+                                'yes',
+                            ],
+                            4 => [
+                                'Accelerometer (G-sensor)',
+                                'yes',
+                            ],
+                            5 => [
+                                'Gyroscopic sensor',
+                                'yes',
+                            ],
+                            6 => [
+                                'Connector USB-C ',
+                                'yes',
+                            ],
+                        ],
+                    ],
+                ],
+                'comparison' => 'Compare with newest model',
+            ],
+            'comparison' => [
+                'title' => 'Comparison with Pocophone F1',
+                'table' => [
+                    'overview' => [
+                        'title1' => 'Redmi 4A',
+                        'title2' => 'Pocophone f1',
+                        'items' => [
+                            [
+                                'Battery capacity',
+                                '3120 mAh',
+                                '4000 mAh',
+                            ],
+                            [
+                                'RAM',
+                                '2048 MB',
+                                '6144 MB',
+                            ],
+                            [
+                                'Processor frequency',
+                                '1.4 GHz',
+                                '2.8 GHz',
+                            ],
+                            [
+                                'Processor cores count',
+                                '4',
+                                '8',
+                            ],
+                            [
+                                'Memory',
+                                '16 GB',
+                                '64 GB',
+                            ],
+                            [
+                                'Manufacturer',
+                                'Xiaomi',
+                                'Xiaomi',
+                            ],
+                            [
+                                'Construction',
+                                'touchable',
+                                'touchable',
+                            ],
+                            [
+                                'OS',
+                                'Android',
+                                'Android',
+                            ],
+                            [
+                                'OS version',
+                                'Android 6.0 (Marshmellow)',
+                                'Android 8.1 (Oreo)',
+                            ],
+                            [
+                                'Weight',
+                                '182 g',
+                                '156 g',
+                            ],
+                            [
+                                'Memory card',
+                                'yes',
+                                'yes',
+                            ],
+                            [
+                                'Price',
+                                'From 107e',
+                                'From 322e',
+                            ],
+                        ],
+                    ],
+                ],
+                'summary' => 'From the comparison of these two mobile phones we can say that the Xiaomi phones are going for the best performance and all that for very solid price.',
             ],
         ],
     ];

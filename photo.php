@@ -46,7 +46,7 @@ $images = array_chunk($images, 3, false);
                 <?php } ?>
                 <div class="ctr">
                     <p class="center">
-                        <a href="#" class="btn-blue btn-see-more"><?= $langFile[$locale]['photo']['see_more'] ?></a>
+<!--                        <a href="#" class="btn-blue btn-see-more">--><?//= $langFile[$locale]['photo']['see_more'] ?><!--</a>-->
                     </p>
                 </div>
             </div>

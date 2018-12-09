@@ -35,7 +35,7 @@ $cssFilePaths = [
                                 <?= $langFile[$locale]['about']['teasing'] ?>
                             </div>
 
-                            <a href="/specification.php" class="btn btn-red btn--small">
+                            <a href="/specification.php?lang=<?= $locale ?>" class="btn btn-red btn--small">
                                 <?= $langFile[$locale]['about']['cta_btn'] ?>
                             </a>
                         </div>
@@ -56,7 +56,7 @@ $cssFilePaths = [
                             </p>
                             <p class="p">
                                 <?= $langFile[$locale]['about']['secondary_section']['try_out'] ?>
-                                <a href="/features.php" class="main-link"><?= $langFile[$locale]['about']['secondary_section']['try_out_ringtones'] ?></a>!
+                                <a href="/features.php?lang=<?= $locale ?>" class="main-link"><?= $langFile[$locale]['about']['secondary_section']['try_out_ringtones'] ?></a>!
                             </p>
                             <p class="p">
                                 <?= $langFile[$locale]['about']['secondary_section']['description'] ?>

@@ -43,10 +43,20 @@ $reviews = (new ReviewController)->getReviews();
                     </div>
                 </div>
                 <?php } ?>
+            <?php } else { ?>
+            <div class="ctr">
+                <div class="fx-100 center" style="padding-top: 300px; color: #606770;">
+                    <?= $langFile[$locale]['review']['no_reviews'] ?>
+                </div>
+            </div>
             <?php } ?>
             <div class="ctr center" style="margin: 20px 0;">
                 <div class="fx-100">
+                <?php if (!empty($reviews)) { ?>
                     <span class="page-review__post-reply"><?= $langFile[$locale]['review']['answer'] ?></span>
+                <?php } else { ?>
+                    <span class="page-review__post-reply"><?= $langFile[$locale]['review']['make_a_review'] ?></span>
+                <?php } ?>
                 </div>
             </div>
         </div>

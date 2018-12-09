@@ -11,7 +11,7 @@ $cssFilePaths = [
 <?php include('resources/partials/nav.php') ?>
     <main>
         <div class="page page-comparison">
-            <h1 class="page-comparison__main-heading center margined">Porovnanie s Pocophone F1</h1>
+            <h1 class="page-comparison__main-heading center margined"><?= $langFile[$locale]['comparison']['title'] ?></h1>
             <div class="ct">
                 <table class="main-table__table">
                     <thead>
@@ -29,8 +29,8 @@ $cssFilePaths = [
                     <?php } ?>
                 </table>
 
-                <p class="comparison-summary">
-                    Z porovnania týchto telefónov môžeme jednoznačne skonštatovať, že modely značky Xiaomi idú jednoznačne po najlepšom výkone a to všetko stále za veľmi prijateľnú cenu.
+                <p class="comparison-summary" style="max-width: 70%;">
+                    <?= $langFile[$locale]['comparison']['summary'] ?>
                 </p>
             </div>
         </div>
